@@ -1,0 +1,63 @@
+ÀÄvictor
+   ÃÄMAIN  1/429  Ram=8
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄ@delay_ms1  0/21  Ram=1
+   ³  ÃÄ@PSTRINGC7_9600_62_63  0/124  Ram=4
+   ³  ÃÄ@delay_ms1  0/21  Ram=1
+   ³  ÃÄEstadoGrupos  0/73  Ram=4
+   ³  ÃÄ@delay_ms1  0/21  Ram=1
+   ³  ÃÄtrata_buffer  0/337  Ram=5
+   ³  ³  ÃÄ@PSTRINGC7_9600_62_63  0/124  Ram=4
+   ³  ³  ÃÄ@PSTRINGC7_9600_62_63  0/124  Ram=4
+   ³  ³  ÃÄtrata_msgAtoI  0/342  Ram=13
+   ³  ³  ³  ÃÄ@MUL1616  0/23  Ram=5
+   ³  ³  ³  ÃÄ@MUL1616  0/23  Ram=5
+   ³  ³  ³  ÃÄ@MUL1616  0/23  Ram=5
+   ³  ³  ³  ÃÄ@delay_ms1  0/21  Ram=1
+   ³  ³  ³  ÃÄImprimeMSGRS232  0/53  Ram=1
+   ³  ³  ³  ÀÄImprimeMSGRS232  0/53  Ram=1
+   ³  ³  ÃÄtrata_msgAtoI  0/342  Ram=13
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄtrata_msgAtoI  0/342  Ram=13
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄtrata_msgAtoI  0/342  Ram=13
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄtrata_msgAtoI  0/342  Ram=13
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC7_9600_62_63  0/124  Ram=4
+   ³  ³  ÃÄ@PSTRINGC7_9600_62_63  0/124  Ram=4
+   ³  ³  ÃÄImprimeMSGRS232  0/53  Ram=1
+   ³  ³  ÃÄ@delay_ms1  0/21  Ram=1
+   ³  ³  ÃÄImprimeMSGRS232  0/53  Ram=1
+   ³  ³  ÃÄ@PSTRINGCN_9600_62_63  0/62  Ram=3
+   ³  ³  ÃÄ@PRINTF_LU_9600_62_63  0/96  Ram=9
+   ³  ³  ÃÄ@PSTRINGCN_9600_62_63  0/62  Ram=3
+   ³  ³  ÃÄ@PRINTF_LU_9600_62_63  0/96  Ram=9
+   ³  ³  ÃÄ@PSTRINGCN7_9600_62_63  0/130  Ram=5
+   ³  ³  ÃÄ@PRINTF_LU_9600_62_63  0/96  Ram=9
+   ³  ³  ÃÄ@PSTRINGCN7_9600_62_63  0/130  Ram=5
+   ³  ³  ÃÄ@PRINTF_LU_9600_62_63  0/96  Ram=9
+   ³  ³  ÀÄImprimeMSGRS232  0/53  Ram=1
+   ³  ÃÄLER_ENTRADAS  1/335  Ram=0
+   ³  ³  ÃÄ@PSTRINGC7_9600_62_63  0/124  Ram=4
+   ³  ³  ÃÄ@PSTRINGC7_9600_62_63  0/124  Ram=4
+   ³  ³  ÃÄ@PSTRINGC7_9600_62_63  0/124  Ram=4
+   ³  ³  ÃÄ@PSTRINGC7_9600_62_63  0/124  Ram=4
+   ³  ³  ÃÄ@PSTRINGC7_9600_62_63  0/124  Ram=4
+   ³  ³  ÃÄ@PSTRINGC7_9600_62_63  0/124  Ram=4
+   ³  ³  ÃÄ@PSTRINGC7_9600_62_63  0/124  Ram=4
+   ³  ³  ÀÄ@PSTRINGC7_9600_62_63  0/124  Ram=4
+   ³  ÀÄControlLights  1/486  Ram=1
+   ³     ÃÄ@goto47093  1/11  Ram=0
+   ³     ÃÄEstadoGrupos  0/73  Ram=4
+   ³     ÃÄEstadoGrupos  0/73  Ram=4
+   ³     ÃÄEstadoGrupos  0/73  Ram=4
+   ³     ÃÄEstadoGrupos  0/73  Ram=4
+   ³     ÃÄ@goto47159  1/10  Ram=0
+   ³     ÃÄEstadoGrupos  0/73  Ram=4
+   ³     ÃÄEstadoGrupos  0/73  Ram=4
+   ³     ÃÄEstadoGrupos  0/73  Ram=4
+   ³     ÀÄEstadoGrupos  0/73  Ram=4
+   ÃÄtrata_INT_RDA  0/64  Ram=2
+   ³  ÀÄ@GETCH_BIU_1  (Inline)  Ram=0
+   ÀÄtrata_t1  0/72  Ram=0

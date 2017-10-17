@@ -1,0 +1,80 @@
+
+ROM used:   3030/4096 (74%)
+            3319/4096 (81%) including unused fragments
+
+            1.9 Average locations per line
+            6.2 Average locations per statement
+
+RAM used:   118/256 (46%) at main() level
+            137/256 (54%) worst case
+
+Stack used: 3 worst case (2 in main + 1 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  830   486 100  _lcd_232.c
+  759     0   0  ..\..\..\..\..\..\Program Files (x86)\PICC\Devices\16f883.h
+----- -----
+ 1589   486 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     21   1    1             @delay_ms1
+ Inline         0             @GETCH_BIU_1
+0     64   2    2    527  6.2  trata_INT_RDA
+0     72   2    0    494  4.7  trata_t1
+0     53   2    1    305  3.3  ImprimeMSGRS232
+0    342  11   13   2144  7.9  trata_msgAtoI
+0     23   1    5             @MUL1616
+0    337  11    5   2086  7.3  trata_buffer
+0     17   1    0             @const673
+0    124   4    4             @PSTRINGC7_9600_62_63
+0     19   1    0             @const678
+0     14   0    0             @const679
+0     16   1    0             @const680
+0     41   1    0             @const681
+0     62   2    3             @PSTRINGCN_9600_62_63
+0     96   3    9             @PRINTF_LU_9600_62_63
+0     39   1    0             @const686
+0     21   1    0             @const687
+0    130   4    5             @PSTRINGCN7_9600_62_63
+0     23   1    0             @const690
+1    335  11    0   4415  6.4  LER_ENTRADAS
+0      8   0    0   4415  6.4  @const692
+0      9   0    0             @const693
+0      8   0    0             @const694
+0      8   0    0             @const695
+0      8   0    0             @const696
+0      8   0    0             @const697
+0      8   0    0             @const698
+0      8   0    0             @const699
+0     73   2    4   1285  4.6  EstadoGrupos
+1    486  16    1   4340  9.9  ControlLights
+1     11   0    0   4340  9.9  @goto47093
+1     10   0    0             @goto47159
+1    429  14    8   2361  5.9  MAIN
+0     16   1    0   2590  5.9  @const714
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               12
+    Statements              486
+    Comments                291
+    Volume (V)              42428
+    Difficulty (D)          77.6
+    Effort to implement (E) 3290392
+    Time to implement (T)   50 hours, 47 minutes
+    Est Delivered Bugs (B)  7
+    Cyclomatic Complexity   204
+    Maintainability (MI)    113
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-0005A    87  0  
+0005B-007FF  1668  289  
+00800-00FFF  1271  777  
+
+
+

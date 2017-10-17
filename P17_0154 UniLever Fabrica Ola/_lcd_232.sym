@@ -1,0 +1,211 @@
+004-005 @WRITE_PROGRAM_MEMORY8.P1
+004-005 @READ_PROGRAM_MEMORY8.P2
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B     CCP_2
+01C     CCP_2_HIGH
+020     @INTERRUPT_AREA
+021     @INTERRUPT_AREA
+022     @INTERRUPT_AREA
+023     @INTERRUPT_AREA
+024     @INTERRUPT_AREA
+025     @INTERRUPT_AREA
+026     @INTERRUPT_AREA
+027     @INTERRUPT_AREA
+028     @INTERRUPT_AREA
+029     @INTERRUPT_AREA
+02A     @INTERRUPT_AREA
+02B     @INTERRUPT_AREA
+02C     rs232_errors
+02D     data_receive
+02E-036 Data_Buffer
+037     current_data
+038.0   BufferOK
+038.1   Carriage_Return
+038.2   ING_I1
+038.3   ING_I2
+038.4   ING_I3
+038.5   ING_I4
+038.6   MEM_I1
+038.7   MEM_I2
+039     count_TimerA
+03A     count_TimerB
+03B     TIMER_LC
+03C-03D TIMER_A
+03E-03F TIMER_B
+040-041 TIMER_C
+042-043 TimerI1on
+044-045 TimerI1off
+046-047 TimerI2on
+048-049 TimerI2off
+04A-04B TimerI3on
+04C-04D TimerI3off
+04E-04F TimerI4on
+050-051 TimerI4off
+052     auxI1on
+053     auxI1off
+054     auxI2on
+055     auxI2off
+056     auxI3on
+057     auxI3off
+058     auxI4on
+059     auxI4off
+05A.0   MEM_I3
+05A.1   MEM_I4
+05A.2   SIGNAL_BLINK
+05A.3   LinhaComando
+05A.4   debugInputs
+05A.5   ChamadaAcucar
+05A.6   LimpezaAcucar
+05B     EstadoG1
+05C     EstadoG2
+05D     EstadoG3
+05E     EstadoG4
+05F     saida
+060-061 TimeOut
+062-063 TimeOutTimer
+064     StartByte
+065     stepR1
+066     stepR2
+067     auxTimeR1
+068     auxTimeR2
+069-06A @sprintf_string
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+0A0-0BD Tempos
+0BE     MAIN.i
+0BF     MAIN.k
+0C0-0C1 MAIN.TIMER_A_OLD
+0C2     EstadoGrupos.G1
+0C2     trata_buffer.i
+0C2     ControlLights.@SCRATCH1
+0C2     MAIN.@SCRATCH1
+0C3     EstadoGrupos.G2
+0C3     trata_buffer.kx
+0C3     MAIN.@SCRATCH2
+0C4     EstadoGrupos.G3
+0C4     trata_buffer.ch
+0C4     MAIN.@SCRATCH3
+0C5     EstadoGrupos.G4
+0C5-0C6 trata_buffer.data_example
+0C5     MAIN.@SCRATCH4
+0C7     @PSTRINGCN7_9600_62_63.P1
+0C7-0C8 @PRINTF_LU_9600_62_63.P2
+0C7     @PSTRINGCN_9600_62_63.P3
+0C7     trata_msgAtoI.i_ee
+0C7     @PSTRINGC7_9600_62_63.@SCRATCH1
+0C8     trata_msgAtoI.i_temp
+0C8     @PSTRINGC7_9600_62_63.@SCRATCH2
+0C8     @PSTRINGCN_9600_62_63.@SCRATCH1
+0C8     @PSTRINGCN7_9600_62_63.@SCRATCH1
+0C9-0CA trata_msgAtoI.max
+0C9     @PSTRINGC7_9600_62_63.@SCRATCH3
+0C9     @PSTRINGCN_9600_62_63.@SCRATCH2
+0C9     @PRINTF_LU_9600_62_63.@SCRATCH1
+0C9     @PSTRINGCN7_9600_62_63.@SCRATCH2
+0CA     @PSTRINGC7_9600_62_63.@SCRATCH4
+0CA     @PRINTF_LU_9600_62_63.@SCRATCH2
+0CA     @PSTRINGCN7_9600_62_63.@SCRATCH3
+0CB-0CC trata_msgAtoI.aux
+0CB     @PRINTF_LU_9600_62_63.@SCRATCH3
+0CB     @PSTRINGCN7_9600_62_63.@SCRATCH4
+0CC     @PRINTF_LU_9600_62_63.@SCRATCH4
+0CD-0CE trata_msgAtoI.MSB
+0CD     @PRINTF_LU_9600_62_63.@SCRATCH5
+0CE     @PRINTF_LU_9600_62_63.@SCRATCH6
+0CF-0D0 trata_msgAtoI.LSB
+0CF     @PRINTF_LU_9600_62_63.@SCRATCH7
+0D1.0   trata_msgAtoI.valid_data
+0D2     ImprimeMSGRS232.msg
+0D2     @delay_ms1.P1
+0D2-0D3 @MUL1616.P2
+0D2     trata_msgAtoI.@SCRATCH1
+0D3     trata_msgAtoI.@SCRATCH2
+0D4-0D5 @MUL1616.P1
+0D6     @MUL1616.@SCRATCH1
+0D7     trata_INT_RDA.@SCRATCH1
+0D8     trata_INT_RDA.@SCRATCH2
+107.6   C1OUT
+108.6   C2OUT
+10D-10E @READ_PROGRAM_MEMORY8.P1
+10D-10E @WRITE_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+00005B  @GETCH_BIU_1
+00005B  trata_INT_RDA
+00009B  trata_t1
+0000E3  @const673.call
+0000F4  @const678.call
+000107  @const679.call
+000115  @const680.call
+000125  @const681.call
+00014E  @const686.call
+000175  @const687.call
+00018A  @const690.call
+0001A1  @const692.call
+0001A9  @const693.call
+0001B2  @const694.call
+0001BA  @const695.call
+0001C2  @const696.call
+0001CA  @const697.call
+0001D2  @const698.call
+0001DA  @const699.call
+0001E2  @const714.call
+0001F2  @delay_ms1
+000207  @PSTRINGC7_9600_62_63
+000283  EstadoGrupos
+0002CC  @MUL1616
+0002E3  ImprimeMSGRS232
+000318  trata_msgAtoI
+00046E  @PSTRINGCN_9600_62_63
+0004AC  @PRINTF_LU_9600_62_63
+00050C  @PSTRINGCN7_9600_62_63
+00058E  trata_buffer
+000800  LER_ENTRADAS
+00094F  ControlLights
+000B35  @goto47093
+000B40  @goto47159
+000B4A  MAIN
+000B4A  @cinit1
+000BAD  @cinit2
+
+Project Directory:
+    C:\Users\victor.andrade\Desktop\Desenvolvimento\PIC Programming\P17_0154 UniLever Fabrica Ola\
+
+Project Files:
+    _lcd_232.c                                              [13-Out-17 11:45  CRC=96960616]
+    ..\..\..\..\..\..\Program Files (x86)\PICC\Devices\16f883.h [16-Mai-17 14:50  CRC=8449AC69]
+
+Source signature=9F295EE8
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=FB5C
+
+Units:
+    _lcd_232 (main)
+
+Compiler Settings:
+    Processor:      PIC16F883
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   _lcd_232.xsym
+    Errors:      _lcd_232.err
+    Ext Symbols: _lcd_232.esym
+    INHX8:       _lcd_232.hex
+    Symbols:     _lcd_232.sym
+    List:        _lcd_232.lst
+    Debug/COFF:  _lcd_232.cof
+    Project:     _lcd_232.ccspjt
+    Call Tree:   _lcd_232.tre
+    Statistics:  _lcd_232.STA
